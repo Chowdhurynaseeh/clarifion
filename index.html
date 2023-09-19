@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Clarifion</title>
+    <style>
+        .shownow{
+            display: none;
+        }
+        @media (max-width: 767px) {
+            .col-md-3:nth-child(n+2) {
+                display: none;
+            }
+            .col-md-3:first-child {
+                text-align: center;
+                margin: auto;
+            }
+            .arrow-icons {
+                display: inline;
+            }
+
+            .arrow-icons .fa-chevron-left,
+            .arrow-icons .fa-chevron-right {
+                display: inline;
+            }
+            .mobileoff{
+                display: none;  
+            }
+            .smallscreenoff{
+                display: none;
+            }
+            .changehere{
+                text-align: center;
+            }
+            .hidenow{
+                display: none;
+            }
+            .shownow{
+                display: block;
+            }
+            .whensmall{
+                font-size: 0.8em;
+            }
+        }
+        @media (min-width: 768px) {
+            #leftArrow,
+            #rightArrow {
+                display: none;
+            }
+        }
+        @media (max-width: 820px) {
+            #imgwidth {
+                width: 80%;
+            }
+        }
+        .navs:hover {
+            text-decoration: none;
+        }   
+    </style>
+  </head>
+  <body>
+    <div class="bg-dark p-3" style="font-size: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-white">
+                    <a href="#" class="navs" style="color : #ffffff" class="arrow-icons">
+                        <i class="fa-solid fa-chevron-left float-left" id="leftArrow"></i>
+                        <i class="fa-solid fa-certificate mr-2"></i>
+                        <span id="itemText">30-DAY SATISFACTION GUARANTEE</span>
+                        <i class="fa-solid fa-chevron-right float-right " id="rightArrow"></i>
+                    </a>
+                </div>
+                <div class="col-md-3"><a href="#" class="navs" style="color : #ffffff"><i class="fa-solid fa-truck-moving mr-2"></i>FREE DELIVERY ON ORDERS OVER $40.00</a></div>
+                <div class="col-md-3"><a href="#" class="navs" style="color : #ffffff"><i class="fa-regular fa-heart mr-2"></i>50,000+ HAPPY CUSTOMERS</a></div>
+                <div class="col-md-3"><a href="#" class="navs" style="color : #ffffff"><i class="fa-solid fa-certificate  mr-2"></i>100% MONEY BACK GUARANTEE</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pt-3 pb-3 mt-3">
+            <div class="col-8 col-sm-8">
+                <img src="assets/img/logo.png" alt="" id="imgwidth">
+            </div>
+            <div class="col-4 com-sm-4 d-flex flex-row-reverse">
+                <img src="assets/img/frame2.png" alt="" id="imgwidth">
+                <img src="assets/img/frame1.png" alt="" id="imgwidth">
+            </div>
+            <div class="col-md-12" style="margin-top: 3%;">
+                <h1 style="text-align: center;font-weight: 400;">Wait ! Your Order In Progress.</h1>
+                <p style="text-align: center;font-size: 1.2em;">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing </p>
+            </div>
+            <div class="col-md-12 d-flex" style="margin-top : 3%">
+                <div class="col-3"><img src="assets/img/icons/greenright.png" alt=""><span class="mobileoff"> Step 1 : </span> Cart Review</div>
+                <div class="col-3"><img src="assets/img/icons/greenright.png" alt=""><span class="mobileoff"> Step 2 :</span> Checkout</div>
+                <div class="col-3"><img src="assets/img/icons/blueright.png" alt=""><span class="mobileoff"> Step 3 :</span> Special Offer</div>
+                <div class="col-3"><img src="assets/img/icons/blueborder.png" alt=""><span class="mobileoff"> Step 4 :</span> Confirmation</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="background-color: #FAFAFA;padding: 2%;">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/img/section1.png" alt="" style="width: 100%;">
+                <div class="row"  style="margin-top:50px; background-color: #ffffff;">
+                    <div class="col-md-12">
+                        <img src="assets/img/icons/customer.png" alt="">
+                    </div>
+                    <div class="col-md-12" style="margin-top: 15px;">
+                        <p style="text-align: justify;">
+                            “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 style="font-weight: 400;font-size: 1.8em;" class="mb-3"><span class="text-primary">ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span class="text-primary"> $14 Each </span> ($84.00 Total!)</h2>
+                <div class="row">
+                    <div class="col-md-3"><img src="assets/img/section1small.png" alt=""></div>
+                    <div class="col-md-8 ml-2">
+                        <h3 style="font-size: 1.6em; font-weight: 400;">Clarifion Air Ionizer <span class="text-primary" style="font-weight: bolder;float : right">$84</span><span class="text-secondary" style="text-decoration:line-through;font-size: 0.7em;float : right">$180 </span></h3>
+                        <div>
+                            <img src="assets/img/icons/Stars.png" alt="">
+                        </div>
+                        <img src="assets/img/icons/point.png" alt=""> <span>12 left in Stock</span>  
+                        <p style="text-align: justify;">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p><img src="assets/img/icons/tick-circle.png" alt=""> Negative Ion Technology may <span style="font-weight: 500;">help with allergens</span></p>
+                        <p><img src="assets/img/icons/tick-circle.png" alt=""> Designed for <span style="font-weight: 500;">air rejuvenation</span></p>
+                        <p><img src="assets/img/icons/tick-circle.png" alt=""> <span style="font-weight: 500;">Perfect for every room</span> in all types of places.</p>
+                    </div>
+
+                    <div class="col-md-12 p-3" style="background-color: #EDF3FD">
+                        <img src="assets/img/icons/percent.png" alt=""><span class="ml-3">Save <span style="color: #2C7EF8;">53%</span> and get <span style="color: #2C7EF8;">6 extra Clarifision</span> for only <span style="color: #2C7EF8;">$14 Each.</span> </span>
+                    </div>
+
+                    <button class="btn btn-lg btn-block" style="background-color: #59AE43;color : #ffffff; border-radius: 40px; margin-top: 20px; padding: 10px;">YES - CLAIM MY DISCOUNT <i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="col-md-12 border border-dark mt-3 p-3">
+                        <!-- <p style="margin : 0">Free shipping | <img src="assets/img/icons/lock7.png" alt=""> Secure 256-bit SSL encryption. <span class="smallscreenoff">|<img src="assets/img/icons/transactions.png" alt=""> </span></p>
+                        <span class="smallscreen"></span>    -->
+                        <div class="changehere" style="font-size: 12px;font-weight : 600">Free shipping | <img src="assets/img/icons/lock7.png" alt=""> Secure 256-bit SSL encryption. <span class="hidenow">| </span><hr class="shownow"><img src="assets/img/icons/transactions.png" alt=""></div>
+                    </div>
+                </div>
+                <p style="text-align: center; color: #ff0000; font-size: 1.3em; text-decoration: underline; font-weight: 500;margin-top: 20px;">NO THANKS, I DON'T WANT THIS.</p>
+
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/img/icons/satisfaction.png" alt="">
+                    </div>
+                    <div class="col-9" style="margin-top : 10px; text-align: justify;">
+                        <p>If you are not completely thrilled with your Clarifion - We have a <span style="font-weight: bold;">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: #252F3D; color: #ffffff;padding: 1.3em;">
+        <div class="container">
+            <div class="row whensmall">
+                <div class="col-md-8 col-sm-12">
+                    <p>Copyright (c) 2023 | clarifionsupport@clarifion.com</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p style="margin-bottom: 0;"><i class="fa-solid fa-lock mr-3"></i> Secure 256-bit SSL encryption.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script>
+        let items = [
+            "30-DAY SATISFACTION GUARANTEE",
+            "FREE DELIVERY ON ORDERS OVER $40.00",
+            "50,000+ HAPPY CUSTOMERS",
+            "100% MONEY BACK GUARANTEE"
+        ];
+    
+        let currentItemIndex = 0;
+        let itemTextElement = document.getElementById('itemText');
+        let isMobileView = window.innerWidth <= 540;
+    
+        function updateItemText() {
+            itemTextElement.innerText = items[currentItemIndex];
+        }
+    
+        document.getElementById('leftArrow').addEventListener('click', function() {
+            if (isMobileView) {
+                currentItemIndex = (currentItemIndex - 1 + items.length) % items.length;
+                updateItemText();
+            }
+        });
+    
+        document.getElementById('rightArrow').addEventListener('click', function() {
+            if (isMobileView) {
+                currentItemIndex = (currentItemIndex + 1) % items.length;
+                updateItemText();
+            }
+        });
+    
+        window.addEventListener('resize', function() {
+            isMobileView = window.innerWidth <= 540;
+            if (!isMobileView) {
+                currentItemIndex = 0;
+                updateItemText();
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
